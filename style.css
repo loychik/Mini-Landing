@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEBF1;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+.item {
+    margin: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 60px;
+}
+.item p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    line-height: 32px;
+}
+p {
+    margin: 0;
+}
+p.title-bold {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+p.download {
+    margin-bottom: 128px;
+    margin-top: 39px;
+}
+button {
+    width: 372px;
+    height: 69px;
+    left: 1185px;
+    top: 686px;
+    background: linear-gradient(267.05deg, #00C1B8 0%, #00A19A 100%);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer {
+    background-image: url("Best.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: fill;
+    margin-top: 181px;
+    margin-bottom: 0;
+    display: flex;
+}
+.text-footer-bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.text-footer {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text {
+    margin-left: 192px;
+    margin-top: 88px;
+    display: block;
+}
+input {
+    width: 548px;
+    height: 57px;
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 10px;
+    border: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 18px 15px;
+    margin-block-end: 20px;
+    margin-block-start: 40px;
+    margin-left: 338px;
+    color: #FFFFFF;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+input.tel {
+    width: 424px;
+    margin-left: 0;
+}
+select {
+    width: 100px;
+    height: 57px;
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 10px;
+    border: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 18px 15px;
+    color: rgba(255, 255, 255);
+    margin-right: 20px;
+    margin-left: 338px;
+}
+option {
+    color: rgb(0, 0, 0);
+}
